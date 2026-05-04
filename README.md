@@ -1,6 +1,6 @@
 # DevInsight AI - RAG-Based Developer Assistant
 
-[![GitHub stars](https://img.shields.io/github/stars/pun33th45/devinsight-ai?style=social)](https://github.com/pun33th45/devinsight-ai/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/pun33th45/RAG-Based-Developer-Assistant?style=social)](https://github.com/pun33th45/RAG-Based-Developer-Assistant/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi&logoColor=white)
@@ -115,8 +115,8 @@ devinsight-ai/
 ### 1. Clone
 
 ```bash
-git clone https://github.com/pun33th45/devinsight-ai.git
-cd devinsight-ai
+git clone https://github.com/pun33th45/RAG-Based-Developer-Assistant.git
+cd RAG-Based-Developer-Assistant
 ```
 
 ### 2. Backend
