@@ -22,7 +22,7 @@ jobs:
         run: python -c "from app.main import app; print(app.title)"
       - name: Run backend tests
         working-directory: backend
-        run: pytest
+        run: PYTHONPATH=. pytest
 
   frontend:
     runs-on: ubuntu-latest
