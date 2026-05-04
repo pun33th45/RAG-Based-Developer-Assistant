@@ -20,6 +20,9 @@ jobs:
       - name: Import FastAPI app
         working-directory: backend
         run: python -c "from app.main import app; print(app.title)"
+      - name: Run backend tests
+        working-directory: backend
+        run: pytest
 
   frontend:
     runs-on: ubuntu-latest
