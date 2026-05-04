@@ -1,0 +1,14 @@
+__pycache__/
+**/__pycache__/
+*.pyc
+.env
+.env.local
+.venv/
+backend/.venv/
+venv/
+node_modules/
+.npm-cache/
+dist/
+build/
+backend/storage/
+frontend/.env.local
