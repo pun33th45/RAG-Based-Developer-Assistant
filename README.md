@@ -1,14 +1,7 @@
-# DevInsight AI - RAG-Based Developer Assistant
+# DevInsight AI 🚀
 
-[![GitHub stars](https://img.shields.io/github/stars/pun33th45/RAG-Based-Developer-Assistant?style=social)](https://github.com/pun33th45/RAG-Based-Developer-Assistant/stargazers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-Vite-61DAFB?logo=react&logoColor=111)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-UI-38B2AC?logo=tailwindcss&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-RAG-1C3C3C)
-![FAISS](https://img.shields.io/badge/FAISS-Vector_DB-blue)
-![Gemini](https://img.shields.io/badge/Gemini-LLM-8E75B2)
+![Python](https://img.shields.io/badge/Python-3.11-blue) ![FastAPI](https://img.shields.io/badge/FastAPI-API-blue) ![React](https://img.shields.io/badge/React-Vite-blue) ![LangChain](https://img.shields.io/badge/LangChain-RAG-blue) ![FAISS](https://img.shields.io/badge/FAISS-Vector_DB-blue)
+![Project](https://img.shields.io/badge/Project-RAG_AI-purple) ![Status](https://img.shields.io/badge/Status-Active-green) ![GitHub stars](https://img.shields.io/github/stars/pun33th45/devinsight-ai?color=blue) ![GitHub forks](https://img.shields.io/github/forks/pun33th45/devinsight-ai?color=blue) ![GitHub issues](https://img.shields.io/github/issues/pun33th45/devinsight-ai?color=blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
 DevInsight AI is a full-stack Retrieval-Augmented Generation developer assistant. Upload a codebase or technical document, then ask practical engineering questions such as:
 
