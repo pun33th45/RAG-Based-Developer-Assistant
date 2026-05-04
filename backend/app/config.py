@@ -2,7 +2,7 @@ from functools import lru_cache
 from pathlib import Path
 
 from dotenv import load_dotenv
-from pydantic import Field
+from pydantic import Field, computed_field
 from pydantic_settings import BaseSettings
 
 
@@ -31,6 +31,19 @@ class Settings(BaseSettings):
     @property
     def google_genai_api_key(self) -> str:
         return self.google_api_key or self.gemini_api_key
+
+    @computed_field
+    @property
+    def is_llm_configured(self) -> bool:
+        return bool(self.google_genai_api_key)
+
+    def validate_runtime(self) -> list[str]:
+        issues = []
+        if not self.google_genai_api_key:
+            issues.append("GOOGLE_API_KEY or GEMINI_API_KEY is required for upload and query workflows.")
+        if self.chunk_overlap >= self.chunk_size:
+            issues.append("chunk_overlap must be smaller than chunk_size.")
+        return issues
 
 
 @lru_cache
